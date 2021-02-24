@@ -1,0 +1,19 @@
+.App {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  grid-template-columns: 300px 1fr;
+  min-height: 100vh;
+}
+
+.App > div {
+  padding: 20px;
+}
+
+.HeaderArea {
+  grid-column: span 2;
+  background-color: #eeeeee;
+}
+
+.SidebarArea {
+  background-color: #dddddd;
+}
