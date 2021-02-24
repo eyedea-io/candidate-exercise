@@ -45,7 +45,7 @@ yarn start-api
 This API runs on `localhost:4000` by default.
 You can read the API's code by yourself, but there's also docs here:
 
-### POST /register
+### POST `/register`
 
 ```ts
 // Payload:
@@ -59,7 +59,7 @@ Possible outcomes:
 - HTTP 200: OK
 - HTTP 400: Bad request
 
-### POST /login
+### POST `/login`
 
 ```ts
 // Payload:
@@ -75,7 +75,7 @@ Possible outcomes:
 - HTTP 400: Bad request (probably user already exists).
 - HTTP 401: Credentials are bad.
 
-### GET /secret-data
+### GET `/secret-data`
 
 You need to pass `Authorization` header with value ` Bearer <VALID_TOKEN_HERE>` in order to get the data.
 
