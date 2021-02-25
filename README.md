@@ -5,12 +5,12 @@ This is the exercise app. Your goal is to create a simple app with authorization
 
 ## What do you have:
 
-- A simple React app with the single component view (App.tsx)
+- A simple React app with the single component view (`App.tsx`)
 - Three components (Header, Sidebar, Content) that represent certain areas of the app
 - A simple node.js-based API service that is capable of:
-  - Registering new user (POST /register)
-  - Logging in existing user (POST /login)
-  - Retrieving some super-secret data available only for registered users (GET /secret-data)
+  - Registering new user (POST `/register`)
+  - Logging in existing user (POST `/login`)
+  - Retrieving some super-secret data available only for registered users (GET `/secret-data`)
 
 ## What do you need to do: 
 
